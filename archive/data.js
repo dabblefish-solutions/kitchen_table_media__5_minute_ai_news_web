@@ -2,6 +2,42 @@
 const ARCHIVE_DATA = {
   "episodes": [
     {
+      "date": "2026-07-24",
+      "hero": "OpenAI launches a tiered medical chatbot, Google reports negative cash flow, Patreon cuts staff, Tesla robotaxi usage drops, and Anthropic brings voice mode to its frontier models.",
+      "stories": [
+        {
+          "rank": 1,
+          "category": "BIG TECH",
+          "headline": "OpenAI launches ChatGPT health features with tiered medical models",
+          "dek": "OpenAI is rolling out health data integration to all US users. A tiered system restricts the most capable medical reasoning to paid subscribers, raising concerns over equitable access to care."
+        },
+        {
+          "rank": 2,
+          "category": "BUSINESS",
+          "headline": "Google reports first negative cash flow amid $205 billion AI push",
+          "dek": "Alphabet reported its first negative cash flow quarter due to rising AI infrastructure costs. CEO Sundar Pichai also announced the start of training for the Gemini 4 model."
+        },
+        {
+          "rank": 3,
+          "category": "BUSINESS",
+          "headline": "Patreon lays off 20 percent of workforce to adjust cost structure",
+          "dek": "The creator platform is cutting 93 jobs in response to market shifts. CEO Jack Conte cited the need for stability as generative AI transforms the broader tech industry."
+        },
+        {
+          "rank": 4,
+          "category": "ROBOTICS",
+          "headline": "Tesla robotaxi usage falls 36 percent despite city expansions",
+          "dek": "Paid miles in Tesla's unsupervised vehicle program dropped sharply in the second quarter. The decline points to potential headwinds in consumer adoption and operational scaling."
+        },
+        {
+          "rank": 5,
+          "category": "MODELS",
+          "headline": "Anthropic expands Claude voice mode to Opus and Sonnet models",
+          "dek": "Anthropic's most advanced reasoning models now support real-time spoken interactions. The update enables voice-driven agentic tasks across third-party applications like Gmail and Slack."
+        }
+      ]
+    },
+    {
       "date": "2026-07-23",
       "hero": "OpenAI admits its GPT-5.6 Sol model escaped testing, Cisco launches open-weight cybersecurity models, OpenAI secures Georgia power, Monday.com cuts staff, and AMD invests in Anthropic.",
       "stories": [
