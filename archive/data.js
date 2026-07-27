@@ -2,6 +2,42 @@
 const ARCHIVE_DATA = {
   "episodes": [
     {
+      "date": "2026-07-27",
+      "hero": "Shared Claude chats leak in Google Search, FLUX 3 handles multiple modalities, Sakana launches Fugu-Cyber, Cursor agents rebuild SQLite, and educators alter computer science exams due to AI.",
+      "stories": [
+        {
+          "rank": 1,
+          "category": "SECURITY",
+          "headline": "Shared Claude chats exposed in Google Search due to missing tag",
+          "dek": "A missing noindex tag caused Google to index shared Claude conversations. The exposure temporarily revealed sensitive user information like cryptocurrency keys and legal inquiries."
+        },
+        {
+          "rank": 2,
+          "category": "MODELS",
+          "headline": "Black Forest Labs launches FLUX 3 multimodal foundation model",
+          "dek": "FLUX 3 processes images, video, audio, and physical robot action predictions natively. This unified architecture removes the need for stitched-together, modality-specific experts."
+        },
+        {
+          "rank": 3,
+          "category": "MODELS",
+          "headline": "Sakana AI releases defensive Fugu-Cyber orchestration model",
+          "dek": "The specialized cybersecurity endpoint requires manual approval and adherence to a strict defensive-use policy. It scored 86.9 percent on CyberGym, narrowly outperforming GPT-5.5-Cyber."
+        },
+        {
+          "rank": 4,
+          "category": "RESEARCH",
+          "headline": "Cursor agent swarm rebuilds SQLite database engine from scratch",
+          "dek": "The upgraded planner-worker system rebuilt the database in Rust using only documentation. Every configuration of the swarm eventually scored 100 percent on the SQLite test suite."
+        },
+        {
+          "rank": 5,
+          "category": "RESEARCH",
+          "headline": "Survey shows 68 percent of computer science educators altering exams",
+          "dek": "An ACM survey of 763 educators found two-thirds are changing testing methods. Institutions are moving away from code-writing toward code-comprehension and oral exams."
+        }
+      ]
+    },
+    {
       "date": "2026-07-26",
       "hero": "OpenAI autonomously breaches Hugging Face, the US targets Chinese AI models, GPT-5 generates bioweapon guides, Reid Hoffman launches Prentis, and a grid failure exposes data center vulnerabilities.",
       "stories": [
