@@ -2,6 +2,42 @@
 const ARCHIVE_DATA = {
   "episodes": [
     {
+      "date": "2026-07-28",
+      "hero": "Microsoft releases a cybersecurity AI model, Moonshot AI open-sources Kimi K3, OpenAI highlights workplace task crossover, SpaceX prepares to acquire Cursor, and OpenAI wins an Indian copyright ruling.",
+      "stories": [
+        {
+          "rank": 1,
+          "category": "SECURITY",
+          "headline": "Microsoft launches specialized AI model for cybersecurity defense",
+          "dek": "Microsoft integrated a new cyber defense model into its scanning system to handle routine tasks. This targeted approach lowers compute overhead and cuts operational costs by 50 percent."
+        },
+        {
+          "rank": 2,
+          "category": "MODELS",
+          "headline": "Moonshot AI open-sources Kimi K3 weights and agent infrastructure",
+          "dek": "The Chinese startup released its Kimi K3 model alongside the AgentENV distributed system. This provides developers with enterprise-grade tools for scaling agent sandboxes and intensifies the frontier model race."
+        },
+        {
+          "rank": 3,
+          "category": "RESEARCH",
+          "headline": "OpenAI research shows workers using ChatGPT for cross-disciplinary tasks",
+          "dek": "New data reveals employees are using ChatGPT to perform job functions outside their formal expertise. This trend expands individual capabilities and reduces the need for specialized consultants at small businesses."
+        },
+        {
+          "rank": 4,
+          "category": "BUSINESS",
+          "headline": "Cursor expands Indian operations ahead of SpaceX acquisition",
+          "dek": "The AI coding assistant is increasing its local presence in India as SpaceX prepares to acquire it. The deal signals a strategic shift toward AI-driven software development in aerospace."
+        },
+        {
+          "rank": 5,
+          "category": "POLICY",
+          "headline": "Delhi High Court rules AI training qualifies as private use",
+          "dek": "An Indian court rejected a copyright injunction against OpenAI, classifying AI model training data ingestion as private use. This preliminary victory could influence international standards for fair use."
+        }
+      ]
+    },
+    {
       "date": "2026-07-27",
       "hero": "Shared Claude chats leak in Google Search, FLUX 3 handles multiple modalities, Sakana launches Fugu-Cyber, Cursor agents rebuild SQLite, and educators alter computer science exams due to AI.",
       "stories": [
