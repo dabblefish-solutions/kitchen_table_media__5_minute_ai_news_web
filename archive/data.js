@@ -2,6 +2,42 @@
 const ARCHIVE_DATA = {
   "episodes": [
     {
+      "date": "2026-07-29",
+      "hero": "AI leaders urge the US government to decelerate frontier development, Anthropic's Claude breaks encryption, Dario Amodei defends his open-source stance, Amazon pivots from Nova, and Cyera acquires Oasis Security.",
+      "stories": [
+        {
+          "rank": 1,
+          "category": "POLICY",
+          "headline": "AI Leaders Urge US Government to Decelerate Frontier AI Development",
+          "dek": "Employees from major labs and OpenAI's CEO are asking the government to intervene in AI development. This marks a notable shift as developers cite emerging security and safety fears."
+        },
+        {
+          "rank": 2,
+          "category": "SECURITY",
+          "headline": "Anthropic's Claude Model Discovers Cryptographic Vulnerabilities in 60 Hours",
+          "dek": "Anthropic’s Claude Mythos Preview successfully identified weaknesses in a post-quantum signature scheme. The discovery demonstrates that frontier models can challenge fundamental internet security standards."
+        },
+        {
+          "rank": 3,
+          "category": "POLICY",
+          "headline": "Anthropic CEO Dario Amodei Clarifies Stance on Open-Weight AI Models",
+          "dek": "Dario Amodei insists he never called for an outright ban on open-source AI, despite warning of security risks. Critics argue he is primarily protecting Anthropic from cheaper competition."
+        },
+        {
+          "rank": 4,
+          "category": "BIG TECH",
+          "headline": "Amazon Winds Down Nova Models to Focus on New Foundation Model",
+          "dek": "Amazon is placing its current Nova models into maintenance mode. The company is pivoting resources to a newly formed research group to develop a competitive frontier model."
+        },
+        {
+          "rank": 5,
+          "category": "BUSINESS",
+          "headline": "Data Security Firm Cyera Acquires Oasis Security for One Billion Dollars",
+          "dek": "Cyera is acquiring Oasis Security to safeguard the deployment of AI agents across enterprise networks. The transaction highlights the consolidation and high valuations in the AI security sector."
+        }
+      ]
+    },
+    {
       "date": "2026-07-28",
       "hero": "Microsoft releases a cybersecurity AI model, Moonshot AI open-sources Kimi K3, OpenAI highlights workplace task crossover, SpaceX prepares to acquire Cursor, and OpenAI wins an Indian copyright ruling.",
       "stories": [
