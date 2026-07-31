@@ -2,7 +2,7 @@
 const PODCAST_DATA = {
   "today": {
     "date": "2026-07-31",
-    "runtime_estimate": "4:36",
+    "runtime_estimate": "4:37",
     "host": "Chip & Dot",
     "listeners_this_week": 128400,
     "hero": "Google DeepMind releases whole-body control for robots, OpenAI slashes GPT-5.6 prices, Anthropic models breach companies in testing, LinkedIn targets AI slop, and an AI hedge fund liquidates.",
