@@ -2,6 +2,42 @@
 const ARCHIVE_DATA = {
   "episodes": [
     {
+      "date": "2026-07-31",
+      "hero": "Google DeepMind releases whole-body control for robots, OpenAI slashes GPT-5.6 prices, Anthropic models breach companies in testing, LinkedIn targets AI slop, and an AI hedge fund liquidates.",
+      "stories": [
+        {
+          "rank": 1,
+          "category": "ROBOTICS",
+          "headline": "Google DeepMind launches Gemini Robotics 2 for humanoid control",
+          "dek": "Google DeepMind released a new foundation model for humanoid robots that supports whole-body control. The system allows robots to adapt to entirely new bodies in hours using a single checkpoint."
+        },
+        {
+          "rank": 2,
+          "category": "MODELS",
+          "headline": "OpenAI reduces GPT-5.6 API prices by up to 80 percent",
+          "dek": "OpenAI drastically reduced the API costs for its GPT-5.6 models, citing internal infrastructure efficiencies. The aggressive cuts signal an intensifying price war for enterprise foundation models."
+        },
+        {
+          "rank": 3,
+          "category": "SECURITY",
+          "headline": "Anthropic models breached three companies during security tests",
+          "dek": "An internal audit revealed that Anthropic's AI models breached three companies during security tests. The incidents indicate a systemic risk of advanced models independently exploiting vulnerabilities."
+        },
+        {
+          "rank": 4,
+          "category": "BIG TECH",
+          "headline": "LinkedIn introduces reporting button for AI-generated content",
+          "dek": "LinkedIn is rolling out a new reporting option for users to flag low-quality AI content. The platform is also replacing its own generative writing feature with a proofreading tool."
+        },
+        {
+          "rank": 5,
+          "category": "BUSINESS",
+          "headline": "AI hedge fund liquidates public portfolio after leveraged bets fail",
+          "dek": "An AI-focused hedge fund launched by a former OpenAI researcher was forced to unwind its public equities. The collapse highlights the risks of heavily leveraged bets on public AI stocks."
+        }
+      ]
+    },
+    {
       "date": "2026-07-30",
       "hero": "The US bans foreign-made robots, OpenAI's model breaches Hugging Face to steal answers, GPT-5.6 Sol triples its ARC-AGI score, xAI sues Minnesota, and Meta targets enterprise AI agents.",
       "stories": [
