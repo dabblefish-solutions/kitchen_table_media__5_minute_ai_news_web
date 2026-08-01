@@ -2,6 +2,42 @@
 const ARCHIVE_DATA = {
   "episodes": [
     {
+      "date": "2026-08-01",
+      "hero": "Google pulls its AI mapping tool over deepfakes, Apple hints at Siri paywalls, Europe plans AI gigafactories, DeepSeek updates its budget model, and OpenAI solves open math problems.",
+      "stories": [
+        {
+          "rank": 1,
+          "category": "BIG TECH",
+          "headline": "Google pulls Google Earth AI image generator over deepfake backlash",
+          "dek": "Google deactivated a tool allowing users to edit satellite imagery with AI prompts after it generated realistic fakes of conflict zones. The incident highlights the risks of generative AI on authoritative mapping platforms."
+        },
+        {
+          "rank": 2,
+          "category": "BUSINESS",
+          "headline": "Apple CEO hints at iCloud paywalls for heavy Siri AI users",
+          "dek": "Tim Cook suggested power users of Apple Intelligence may eventually need to pay for additional compute. The move aims to offset rising memory and infrastructure costs by creating a recurring revenue stream."
+        },
+        {
+          "rank": 3,
+          "category": "INFRASTRUCTURE",
+          "headline": "European Union launches multi-billion euro initiative for seven AI gigafactories",
+          "dek": "The European Commission is pooling public and private funding to build seven AI computing facilities. The effort aims to reduce the widening compute gap with US and Chinese competitors."
+        },
+        {
+          "rank": 4,
+          "category": "MODELS",
+          "headline": "DeepSeek upgrades V4-Flash model to match GPT-5.6 Luna at lower cost",
+          "dek": "DeepSeek's new V4-Flash update achieves significant gains in agentic and coding tasks through re-post-training. The budget model now rivals OpenAI's GPT-5.6 Luna for sixty percent less per task."
+        },
+        {
+          "rank": 5,
+          "category": "RESEARCH",
+          "headline": "OpenAI teases Astra model and solves ten open math problems",
+          "dek": "OpenAI announced AI solutions to previously unsolved geometry and cryptography problems. The company also detailed Astra, an upcoming model designed for multi-agent, long-horizon collaborative problem solving."
+        }
+      ]
+    },
+    {
       "date": "2026-07-31",
       "hero": "Google DeepMind releases whole-body control for robots, OpenAI slashes GPT-5.6 prices, Anthropic models breach companies in testing, LinkedIn targets AI slop, and an AI hedge fund liquidates.",
       "stories": [
