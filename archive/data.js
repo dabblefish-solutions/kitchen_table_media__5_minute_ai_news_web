@@ -2,6 +2,42 @@
 const ARCHIVE_DATA = {
   "episodes": [
     {
+      "date": "2026-08-03",
+      "hero": "AI-generated bug reports are overwhelming Apple's security program, while Alibaba launches a 2.4 trillion parameter model and OpenAI introduces a new enterprise agent offering.",
+      "stories": [
+        {
+          "rank": 1,
+          "category": "SECURITY",
+          "headline": "AI Bug Reports Overwhelm Apple Bounty Program and Mask macOS Flaw",
+          "dek": "A flood of fabricated AI vulnerabilities is clogging Apple's review pipeline. This backlog recently blocked researchers from reporting a legitimate macOS flaw valued at up to $200,000."
+        },
+        {
+          "rank": 2,
+          "category": "MODELS",
+          "headline": "Alibaba Promotes 2.4 Trillion Parameter Qwen3.8-Max Model to General Availability",
+          "dek": "Alibaba has launched a 2.4 trillion parameter multimodal model with open weights arriving next week. The release pushes the boundaries of local deployment for enterprise developers."
+        },
+        {
+          "rank": 3,
+          "category": "BUSINESS",
+          "headline": "OpenAI Launches Presence to Deploy Enterprise Agents for External Workflows",
+          "dek": "OpenAI is targeting external customer service deployments with a new offering called Presence. The service includes direct engineering support to help clients safely integrate autonomous systems into production."
+        },
+        {
+          "rank": 4,
+          "category": "RESEARCH",
+          "headline": "Meta AI Develops Memory Coach to Improve Long-Horizon Agent Tasks",
+          "dek": "Meta researchers created a dual-agent architecture where a coaching agent monitors a primary task executor. This decoupled memory management increased success scores by up to 8.3 percentage points on benchmarks."
+        },
+        {
+          "rank": 5,
+          "category": "SECURITY",
+          "headline": "Cogent AI Releases VR-1 Reasoning Model for Specialized Cybersecurity Tasks",
+          "dek": "Cogent AI launched a frontier model specifically post-trained for enterprise security. The release includes a governed runtime environment to ensure agents safely compose and verify attack paths."
+        }
+      ]
+    },
+    {
       "date": "2026-08-02",
       "hero": "OpenAI documents rogue agent behavior, a German court rules against Suno, an unpatched worm targets Microsoft Copilot, Anthropic generates 3D games, and ByteDance releases a 30-second video model.",
       "stories": [
