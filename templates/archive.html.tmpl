@@ -1,0 +1,128 @@
+<!--
+  templates/archive.html.tmpl — archive page template for the pipeline's
+  static site renderer (app_v2/steps/siteupdate.py). Rendered fresh every
+  episode from the full episode history.
+
+  Tokens are substituted with plain str.replace, wrapped like TOKEN_NAME
+  wrapped in double curly braces (see steps/siteupdate.py:render_archive).
+  IMPORTANT: never write a token's literal brace-wrapped form anywhere in
+  this file outside its one substitution slot below — str.replace matches
+  every occurrence, including inside comments.
+
+  TOKENS (all must be substituted — none may survive into shipped HTML):
+    ARCHIVE_NOW     Topbar "now" indicator, "N briefings archived".
+    ARCHIVE_RANGE   "N briefings / Mon D - Mon D, YYYY" date-span block.
+    EPISODE_CARDS   One ep-card <article> (id="<date>") per aired episode,
+                    newest first — each anchor-addressable from the
+                    homepage's "Recent briefings" tiles.
+    JSONLD          JSON-LD payload (raw JSON, no surrounding script tag)
+                    for the PodcastSeries plus an ItemList of every episode.
+
+  Everything else on this page is identical to what archive.js used to render
+  client-side from archive/data.js — this template is a full-page copy of
+  that final DOM, not a redesign.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Episode Archive — 5 Minute AI News Podcast</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Every episode of 5 Minute AI News — daily top-5 AI story briefings, five minutes each.">
+<link rel="canonical" href="https://www.5minuteainews.com/archive/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="5 Minute AI News">
+<meta property="og:title" content="Episode Archive — 5 Minute AI News Podcast">
+<meta property="og:description" content="Every episode of 5 Minute AI News — daily top-5 AI story briefings, five minutes each.">
+<meta property="og:url" content="https://www.5minuteainews.com/archive/">
+<meta property="og:image" content="https://artwork.captivate.fm/d2a5dd5a-c6f4-42af-b2f9-eb989dbebd81/5minuteAINewsLogo-3000x3000.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Episode Archive — 5 Minute AI News Podcast">
+<meta name="twitter:description" content="Every episode of 5 Minute AI News — daily top-5 AI story briefings, five minutes each.">
+<meta name="twitter:image" content="https://artwork.captivate.fm/d2a5dd5a-c6f4-42af-b2f9-eb989dbebd81/5minuteAINewsLogo-3000x3000.jpg">
+<link rel="stylesheet" href="../brand.css">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="archive.css">
+<script type="application/ld+json">
+{{JSONLD}}
+</script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="inner">
+    <a href="../index.html" class="logo">
+      <div class="num">5<span class="dot">.</span></div>
+      <div class="name">
+        <div class="small">Minute</div>
+        <div class="big">AI <em>News</em></div>
+      </div>
+    </a>
+    <nav>
+      <a href="../index.html">Today</a>
+      <a href="index.html" class="active">Archive</a>
+    </nav>
+    <div class="spacer"></div>
+    <div class="now"><span class="dot"></span> <span data-archive-now>{{ARCHIVE_NOW}}</span></div>
+    <a class="sub" href="../index.html#subscribe">Subscribe</a>
+  </div>
+</header>
+
+<section class="archive-lead">
+  <div class="inner">
+    <h1>The <em>archive.</em></h1>
+    <div class="right" data-archive-range>{{ARCHIVE_RANGE}}</div>
+  </div>
+</section>
+
+<section class="archive-list">
+  <div class="inner" data-archive-list>{{EPISODE_CARDS}}</div>
+</section>
+
+<footer>
+  <div class="inner">
+    <div>
+      <a href="../index.html" class="logo">
+        <div class="num">5<span class="dot">.</span></div>
+        <div class="name">
+          <div class="small">Minute</div>
+          <div class="big">AI <em>News</em></div>
+        </div>
+      </a>
+      <p class="blurb">A daily five-minute AI briefing for people with day jobs. Independently produced by Kitchen Table Media since 2024.</p>
+    </div>
+    <div>
+      <h4>Listen</h4>
+      <ul>
+        <li><a href="https://5-minute-ai-news.captivate.fm/apple" target="_blank" rel="noopener">Apple Podcasts</a></li>
+        <li><a href="https://5-minute-ai-news.captivate.fm/spotify" target="_blank" rel="noopener">Spotify</a></li>
+        <li><a href="https://5-minute-ai-news.captivate.fm/amazon" target="_blank" rel="noopener">Amazon Music</a></li>
+        <li><a href="https://goodpods.com/podcasts/5-minute-ai-news-daily-724404" target="_blank" rel="noopener">Goodpods</a></li>
+        <li><a href="https://5-minute-ai-news.captivate.fm/rssfeed" target="_blank" rel="noopener">RSS feed</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Read</h4>
+      <ul>
+        <li><a href="index.html">Archive</a></li>
+        <li><a href="#">Topics</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>About</h4>
+      <ul>
+        <li><a href="#">The team</a></li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Press kit</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="colo">
+    <div>© 2026 Kitchen Table Media</div>
+    <div>Made at the kitchen table · Brooklyn, NY</div>
+  </div>
+</footer>
+
+</body>
+</html>
