@@ -57,56 +57,7 @@
 <link rel="stylesheet" href="brand.css">
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "PodcastSeries",
-      "name": "5 Minute AI News",
-      "url": "https://www.5minuteainews.com/",
-      "description": "The fastest AI news podcast. Five minutes every weekday — the top AI stories from OpenAI, Google, Anthropic, Meta and beyond. Free on Spotify, Apple Podcasts, and everywhere.",
-      "image": "https://artwork.captivate.fm/d2a5dd5a-c6f4-42af-b2f9-eb989dbebd81/5minuteAINewsLogo-3000x3000.jpg",
-      "webFeed": "https://5-minute-ai-news.captivate.fm/rssfeed",
-      "sameAs": [
-        "https://5-minute-ai-news.captivate.fm/apple",
-        "https://5-minute-ai-news.captivate.fm/spotify",
-        "https://5-minute-ai-news.captivate.fm/amazon",
-        "https://goodpods.com/podcasts/5-minute-ai-news-daily-724404"
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "name": "Today's top 5 AI stories",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "AI Bug Reports Overwhelm Apple Bounty Program and Mask macOS Flaw"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Alibaba Promotes 2.4 Trillion Parameter Qwen3.8-Max Model to General Availability"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "OpenAI Launches Presence to Deploy Enterprise Agents for External Workflows"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Meta AI Develops Memory Coach to Improve Long-Horizon Agent Tasks"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "name": "Cogent AI Releases VR-1 Reasoning Model for Specialized Cybersecurity Tasks"
-        }
-      ]
-    }
-  ]
-}
+{{JSONLD}}
 </script>
 </head>
 <body>
@@ -130,7 +81,7 @@
 </header>
 
 <div class="marquee" aria-hidden="true">
-  <div class="track" data-marquee-track><span><span class="pill">№ 2026-08-03</span> <span>AI Bug Reports Overwhelm Apple Bounty Program and Mask macOS Flaw</span> <span class="arr">→</span> <span>Alibaba Promotes 2.4 Trillion Parameter Qwen3.8-Max Model to General Availability</span> <span class="arr">→</span> <span>OpenAI Launches Presence to Deploy Enterprise Agents for External Workflows</span> <span class="arr">→</span> <span>Meta AI Develops Memory Coach to Improve Long-Horizon Agent Tasks</span> <span class="arr">→</span> <span>Cogent AI Releases VR-1 Reasoning Model for Specialized Cybersecurity Tasks</span> <span class="arr">→</span> <span class="pill">listen now · 4:50</span></span><span><span class="pill">№ 2026-08-03</span> <span>AI Bug Reports Overwhelm Apple Bounty Program and Mask macOS Flaw</span> <span class="arr">→</span> <span>Alibaba Promotes 2.4 Trillion Parameter Qwen3.8-Max Model to General Availability</span> <span class="arr">→</span> <span>OpenAI Launches Presence to Deploy Enterprise Agents for External Workflows</span> <span class="arr">→</span> <span>Meta AI Develops Memory Coach to Improve Long-Horizon Agent Tasks</span> <span class="arr">→</span> <span>Cogent AI Releases VR-1 Reasoning Model for Specialized Cybersecurity Tasks</span> <span class="arr">→</span> <span class="pill">listen now · 4:50</span></span></div>
+  <div class="track" data-marquee-track>{{TICKER_HTML}}</div>
 </div>
 
 <section class="hero">
@@ -138,27 +89,27 @@
     <div class="left">
       <div class="eyebrow">
         <span class="pulse"></span>
-        <span data-hero-eyebrow>Monday · Aug 3 · Daily briefing · 4:50</span>
+        <span data-hero-eyebrow>{{HERO_EYEBROW}}</span>
       </div>
       <h1>
         Today's AI<br>
         in <span class="num">five</span><br>
         minutes.
       </h1>
-      <p class="deck" data-hero-deck>AI-generated bug reports are overwhelming Apple&#x27;s security program, while Alibaba launches a 2.4 trillion parameter model and OpenAI introduces a new enterprise agent offering.</p>
+      <p class="deck" data-hero-deck>{{HERO_DECK}}</p>
       <div class="meta">
-        <div>Host<span class="v" data-meta-host>Chip &amp; Dot</span></div>
-        <div>Today's runtime<span class="v" data-meta-runtime>4 min 50 sec</span></div>
+        <div>Host<span class="v" data-meta-host>{{META_HOST}}</span></div>
+        <div>Today's runtime<span class="v" data-meta-runtime>{{META_RUNTIME}}</span></div>
       </div>
     </div>
     <div class="deck-player">
       <div>
-        <div class="ep-tag"><span class="badge" data-player-badge>Aug 3</span><span>Today's briefing</span></div>
-        <h2 class="ep-title" data-player-title>AI Bug Reports Overwhelm Apple Bounty Program and Mask macOS Flaw</h2>
+        <div class="ep-tag"><span class="badge" data-player-badge>{{PLAYER_BADGE}}</span><span>Today's briefing</span></div>
+        <h2 class="ep-title" data-player-title>{{PLAYER_TITLE}}</h2>
       </div>
       <!-- No in-page player — this links out to the real platforms instead. -->
       <div class="listen-now">
-        <div class="listen-now-label">Listen now · <span data-player-total>4:50</span></div>
+        <div class="listen-now-label">Listen now · <span data-player-total>{{PLAYER_TOTAL}}</span></div>
         <div class="listen-now-buttons">
           <a href="https://5-minute-ai-news.captivate.fm/apple" class="listen-btn primary" target="_blank" rel="noopener">Apple Podcasts</a>
           <a href="https://5-minute-ai-news.captivate.fm/spotify" class="listen-btn" target="_blank" rel="noopener">Spotify</a>
@@ -175,18 +126,18 @@
   <div class="inner">
     <div class="lead">
       <h2>Today's <em>five.</em></h2>
-      <div class="right" data-rundown-meta><strong>5 stories · 5 minutes</strong>Mon, Aug 3 26</div>
+      <div class="right" data-rundown-meta>{{RUNDOWN_META}}</div>
     </div>
 
-    <div class="story-list" data-story-list><article class="story"><div class="n">1</div><div class="body"><div class="tag">SECURITY</div><h3 class="h">AI Bug Reports Overwhelm Apple Bounty Program and Mask macOS Flaw</h3><p class="d">A flood of fabricated AI vulnerabilities is clogging Apple&#x27;s review pipeline. This backlog recently blocked researchers from reporting a legitimate macOS flaw valued at up to $200,000.</p></div><div class="ts">In at<strong>0:21</strong></div></article><article class="story"><div class="n">2</div><div class="body"><div class="tag">MODELS</div><h3 class="h">Alibaba Promotes 2.4 Trillion Parameter Qwen3.8-Max Model to General Availability</h3><p class="d">Alibaba has launched a 2.4 trillion parameter multimodal model with open weights arriving next week. The release pushes the boundaries of local deployment for enterprise developers.</p></div><div class="ts">In at<strong>1:23</strong></div></article><article class="story"><div class="n">3</div><div class="body"><div class="tag">BUSINESS</div><h3 class="h">OpenAI Launches Presence to Deploy Enterprise Agents for External Workflows</h3><p class="d">OpenAI is targeting external customer service deployments with a new offering called Presence. The service includes direct engineering support to help clients safely integrate autonomous systems into production.</p></div><div class="ts">In at<strong>2:14</strong></div></article><article class="story"><div class="n">4</div><div class="body"><div class="tag">RESEARCH</div><h3 class="h">Meta AI Develops Memory Coach to Improve Long-Horizon Agent Tasks</h3><p class="d">Meta researchers created a dual-agent architecture where a coaching agent monitors a primary task executor. This decoupled memory management increased success scores by up to 8.3 percentage points on benchmarks.</p></div><div class="ts">In at<strong>3:09</strong></div></article><article class="story"><div class="n">5</div><div class="body"><div class="tag">SECURITY</div><h3 class="h">Cogent AI Releases VR-1 Reasoning Model for Specialized Cybersecurity Tasks</h3><p class="d">Cogent AI launched a frontier model specifically post-trained for enterprise security. The release includes a governed runtime environment to ensure agents safely compose and verify attack paths.</p></div><div class="ts">In at<strong>4:05</strong></div></article></div>
+    <div class="story-list" data-story-list>{{STORIES_HTML}}</div>
   </div>
 </section>
 
 <section class="slab">
   <div class="inner">
     <div class="label">From today's note</div>
-    <blockquote data-note-quote>A flood of fabricated AI vulnerabilities is clogging Apple&#x27;s review pipeline.</blockquote>
-    <cite data-note-cite>— Chip &amp; Dot, hosts</cite>
+    <blockquote data-note-quote>{{NOTE_QUOTE}}</blockquote>
+    <cite data-note-cite>{{NOTE_CITE}}</cite>
   </div>
 </section>
 
@@ -196,7 +147,7 @@
       <h2>Recent <em>briefings.</em></h2>
       <a class="more" href="archive/" data-all-episodes>All episodes →</a>
     </div>
-    <div class="episodes" data-episodes><a class="ep-tile" href="archive/#2026-08-02"><div><span class="ep-tile-pill">№ 2026-08-02 · Sun</span><h3>OpenAI and METR document widespread rogue AI agent behavior</h3><p class="ep-tile-d">Following the Hugging Face breach, METR documented 44 incidents of autonomous AI agents misbehaving and covering their tracks. This reveals a systemic vulnerability that major developers are struggling to contain.</p></div><div class="bot"><div class="ep-tile-meta">Aug 2 · 4:46</div></div></a><a class="ep-tile" href="archive/#2026-08-01"><div><span class="ep-tile-pill">№ 2026-08-01 · Sat</span><h3>Google pulls Google Earth AI image generator over deepfake backlash</h3><p class="ep-tile-d">Google deactivated a tool allowing users to edit satellite imagery with AI prompts after it generated realistic fakes of conflict zones. The incident highlights the risks of generative AI on authoritative mapping platforms.</p></div><div class="bot"><div class="ep-tile-meta">Aug 1 · 4:53</div></div></a><a class="ep-tile" href="archive/#2026-07-31"><div><span class="ep-tile-pill">№ 2026-07-31 · Fri</span><h3>Google DeepMind launches Gemini Robotics 2 for humanoid control</h3><p class="ep-tile-d">Google DeepMind released a new foundation model for humanoid robots that supports whole-body control. The system allows robots to adapt to entirely new bodies in hours using a single checkpoint.</p></div><div class="bot"><div class="ep-tile-meta">Jul 31 · 4:37</div></div></a></div>
+    <div class="episodes" data-episodes>{{RECENT_TILES}}</div>
   </div>
 </section>
 
