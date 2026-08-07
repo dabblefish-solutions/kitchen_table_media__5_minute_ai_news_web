@@ -2,7 +2,7 @@
 
 Static site for [www.5minuteainews.com](https://www.5minuteainews.com), served via GitHub Pages from this repo's `main` branch root.
 
-This repo is auto-updated daily by the podcast pipeline (repo `dabblefish-podcast--5minainews`), which regenerates the day's episode data and pushes the changes here.
+This repo is auto-updated daily by the podcast pipeline (repo `kitchen_table_media__5_minute_ai_news_generator`), which regenerates the day's episode data and pushes the changes here.
 
 ## Structure
 
