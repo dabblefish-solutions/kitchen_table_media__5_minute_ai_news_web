@@ -8,12 +8,12 @@ const CONSOLE_DATA = {
     {
       "id": 84,
       "started_at": "2026-09-27T10:08:16+00:00",
-      "finished_at": null,
-      "status": "running",
+      "finished_at": "2026-09-27T10:15:05+00:00",
+      "status": "success",
       "step": "siteupdate",
       "error": null,
       "episode_date": "2026-09-27",
-      "wall_seconds": null
+      "wall_seconds": 409.0
     },
     {
       "id": 83,
